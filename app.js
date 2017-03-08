@@ -20,32 +20,32 @@ if (myAnswer === 'yes' || myAnswer === 'y') {
   alert("Mmh...only you don\'t play music.")
   console.log(userAnswer);
   } else {
-  alert("Sorry, you didnot enter right answer");
+  alert("Sorry, you didn\'t enter right answer");
 }
 
 userAnswer = prompt(question2);
 var myAnswer = userAnswer.toLowerCase();
 if (myAnswer === 'yes' || myAnswer === 'y') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("You are right. I play flute!")
+  alert("Are you crazy. Who would run a marathon!")
   console.log(myAnswer);
   } else if (myAnswer === 'no' || myAnswer === 'n') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("Mmh...only you don\'t play music.")
+  alert("I think you\'re right this time.")
   console.log(userAnswer);
   } else {
-  alert("Sorry, you didnot enter right answer");
+  alert("Sorry, you didn\'t enter right answer");
 }
 
 userAnswer = prompt(question3);
 var myAnswer = userAnswer.toLowerCase();
 if (myAnswer === 'yes' || myAnswer === 'y') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("You are right. I play flute!")
+  alert("You are right. Who wouln\'t like fastfood.")
   console.log(myAnswer);
   } else if (myAnswer === 'no' || myAnswer === 'n') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("Mmh...only you don\'t play music.")
+  alert("Mmh...I am not that health consciuos.")
   console.log(userAnswer);
   } else {
   alert("Sorry, you didnot enter right answer");
@@ -55,11 +55,11 @@ userAnswer = prompt(question4);
 var myAnswer = userAnswer.toLowerCase();
 if (myAnswer === 'yes' || myAnswer === 'y') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("You are right. I play flute!")
+  alert("Mmh...I sit at computer desk all day. So you\'re wrong!")
   console.log(myAnswer);
   } else if (myAnswer === 'no' || myAnswer === 'n') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("Mmh...only you don\'t play music.")
+  alert("Yes...you\'re right.")
   console.log(userAnswer);
   } else {
   alert("Sorry, you didnot enter right answer");
@@ -69,11 +69,11 @@ userAnswer = prompt(question5);
 var myAnswer = userAnswer.toLowerCase();
 if (myAnswer === 'yes' || myAnswer === 'y') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("You are right. I play flute!")
+  alert("You are right. I am a computer geek!")
   console.log(myAnswer);
   } else if (myAnswer === 'no' || myAnswer === 'n') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("Mmh...only you don\'t play music.")
+  alert("Mmh...think again.")
   console.log(userAnswer);
   } else {
   alert("Sorry, you didnot enter right answer");
