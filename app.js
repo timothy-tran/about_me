@@ -45,10 +45,10 @@ if (myAnswer === 'yes' || myAnswer === 'y') {
   console.log(myAnswer);
   } else if (myAnswer === 'no' || myAnswer === 'n') {
   confirm("Your answer is" + " " + myAnswer);
-  alert("Mmh...I am not that health consciuos.")
+  alert("Mmh...I am not that health conscious.")
   console.log(userAnswer);
   } else {
-  alert("Sorry, you didnot enter right answer");
+  alert("Sorry, you didn\'t enter right answer");
 }
 
 userAnswer = prompt(question4);
@@ -62,7 +62,7 @@ if (myAnswer === 'yes' || myAnswer === 'y') {
   alert("Yes...you\'re right.")
   console.log(userAnswer);
   } else {
-  alert("Sorry, you didnot enter right answer");
+  alert("Sorry, you didn\'t enter right answer");
 }
 
 userAnswer = prompt(question5);
@@ -76,5 +76,5 @@ if (myAnswer === 'yes' || myAnswer === 'y') {
   alert("Mmh...think again.")
   console.log(userAnswer);
   } else {
-  alert("Sorry, you didnot enter right answer");
+  alert("Sorry, you didn\'t enter right answer");
 }
