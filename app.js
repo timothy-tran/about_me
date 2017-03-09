@@ -78,3 +78,26 @@ if (myAnswer === 'yes' || myAnswer === 'y') {
 } else {
   alert("Sorry, you didn\'t enter right answer");
 }
+
+var numTarget = 50;
+var userInputNum;
+var myNum;
+alert("Now let\'s play a number game. You have four tries.");
+for (var i = 0; i < 4; i++) {
+  do {
+    userInputNum = prompt("Please guess a number:");
+  } while (isNaN(userInputNum));
+    myNum = parseInt(userInputNum);
+    console.log("Test user input:" + myNum);
+  if (myNum < numTarget) {
+    alert("Your guessing number is too low. Try again!");
+    console.log("Your guess number:" + " " + myNum + " " + "is too low.");
+  } else if (myNum > numTarget) {
+    alert("Your guessing number is too high. Try again!");
+    console.log("Your guess number:" + " " + myNum + " " + "is too high.");
+  } else {
+    alert("You\'re right on target. You win!");
+    i = 4;
+    console.log(myNum);
+  }
+}
