@@ -39,15 +39,13 @@ function myQuestion1() {
   }
 }
 
-myQuestion1();
-
 function myQuestion2() {
   var userInput = prompt(question2);
   var answer = yesorno(userInput);
   var b = isNaN(answer);
   if (!b) {
     if (answer) {
-      confirm('Your answer is' + ' ' + userInputr);
+      confirm('Your answer is' + ' ' + userInput);
       alert('Are you crazy. Who would run a marathon!');
       correct++;
       console.log(answer);
@@ -59,8 +57,6 @@ function myQuestion2() {
     alert(answer);
   }
 }
-
-myQuestion2();
 
 function myQuestion3() {
   var userInput = prompt(question3);
@@ -81,10 +77,8 @@ function myQuestion3() {
   }
 }
 
-myQuestion3();
-
 function myQuestion4() {
-  var userInput = prompt(question2);
+  var userInput = prompt(question4);
   var answer = yesorno(userInput);
   var b = isNaN(answer);
   if (!b) {
@@ -102,10 +96,8 @@ function myQuestion4() {
   }
 }
 
-myQuestion4();
-
 function myQuestion5() {
-  var userInput = prompt(question2);
+  var userInput = prompt(question5);
   var answer = yesorno(userInput);
   var b = isNaN(answer);
   if (!b) {
@@ -123,4 +115,8 @@ function myQuestion5() {
   }
 }
 
+myQuestion1();
+myQuestion2();
+myQuestion3();
+myQuestion4();
 myQuestion5();
