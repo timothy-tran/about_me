@@ -1,10 +1,8 @@
 'use strict';
 
-var question1 = 'Do I play a musical instrument?';
-var question2 = 'Can I run a marathon?';
-var question3 = 'Do I like fastfood?';
-var question4 = 'Do I like to travel?';
-var question5 = 'Can I write computer code?';
+var question3 = ;
+var question4 = ;
+var question5 = ;
 var question;
 
 var userAnswer;
@@ -23,16 +21,16 @@ function yesOrNo(userAnswer) {
 
 function myQuestion1() {
   var userInput = prompt('Do I play a musical instrument?');
-  var answer = yesorno(userInput);
-  var b = isNaN(answer);
-  if (!b) {
+  var answer = yesOrNo(userInput);
+  var checkIfString = isNaN(answer);
+  if (!checkIfString) {
     if (answer) {
       confirm('Your answer is' + ' ' + userInput);
       alert('you are right. I play flute!');
       correct++;
       console.log(answer);
     } else {
-      confirm('your answer is' + ' ' + userInput);
+      confirm('Your answer is' + ' ' + userInput);
       alert('Mmh...only you don\'t play music.');
     }
   } else {
@@ -41,10 +39,10 @@ function myQuestion1() {
 }
 
 function myQuestion2() {
-  var userInput = prompt(question2);
+  var userInput = prompt('Can I run a marathon?');
   var answer = yesorno(userInput);
-  var b = isNaN(answer);
-  if (!b) {
+  var checkIfString = isNaN(answer);
+  if (!checkIfString) {
     if (answer) {
       confirm('Your answer is' + ' ' + userInput);
       alert('Are you crazy. Who would run a marathon!');
@@ -60,10 +58,10 @@ function myQuestion2() {
 }
 
 function myQuestion3() {
-  var userInput = prompt(question3);
+  var userInput = prompt('Do I like fastfood?');
   var answer = yesorno(userInput);
-  var b = isNaN(answer);
-  if (!b) {
+  var checkIfString = isNaN(answer);
+  if (!checkIfString) {
     if (answer) {
       confirm('Your answer is' + ' ' + userInput);
       alert('You are right. Who wouln\'t like fastfood.');
@@ -79,10 +77,10 @@ function myQuestion3() {
 }
 
 function myQuestion4() {
-  var userInput = prompt(question4);
+  var userInput = prompt('Do I like to travel?');
   var answer = yesorno(userInput);
-  var b = isNaN(answer);
-  if (!b) {
+  var checkIfString = isNaN(answer);
+  if (!checkIfString) {
     if (answer) {
       confirm('Your answer is' + '' + answer);
       alert('Mmh...I sit at computer desk all day. So you\'re wrong!');
@@ -98,10 +96,10 @@ function myQuestion4() {
 }
 
 function myQuestion5() {
-  var userInput = prompt(question5);
+  var userInput = prompt('Can I write computer code?');
   var answer = yesorno(userInput);
-  var b = isNaN(answer);
-  if (!b) {
+  var checkIfString = isNaN(answer);
+  if (!checkIfString) {
     if (answer) {
       confirm('Your answer is' + '' + answer);
       alert('You are right. I am a computer geek!');
