@@ -10,19 +10,19 @@ var question;
 var userAnswer;
 var correct = 0;
 
-function yesorno(userAnswer) {
+function yesOrNo(userAnswer) {
   var myAnswer = userAnswer.toLowerCase();
   if (myAnswer === 'yes' || myAnswer === 'y') {
     return true;
   } else if (myAnswer === 'no' || myAnswer === 'n') {
     return false;
   } else {
-    return 'sorry, you didn\'t enter the right answer';
+    return 'Sorry, you didn\'t enter the right answer!';
   }
 }
 
 function myQuestion1() {
-  var userInput = prompt(question1);
+  var userInput = prompt('Do I play a musical instrument?');
   var answer = yesorno(userInput);
   var b = isNaN(answer);
   if (!b) {
@@ -226,7 +226,7 @@ for (var i = 0; i < 4; i++) {
   } else {
     alert("You\'re right on target.");
     i = 4;
-    corect++;
+    correct++;
     console.log(myNum);
   }
 }
