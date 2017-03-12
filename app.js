@@ -152,7 +152,7 @@ function greeting() {
   myQuestion3();
   myQuestion4();
   myQuestion5();
-  alert('Now let\'s play a guessign number game:');
+  alert('Now let\'s play a guessing number game:');
   guessingGame();
   alert('And now let\'s play \"Where I Have Been\" game:');
   whereIBeen();
